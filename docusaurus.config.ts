@@ -89,9 +89,10 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/Sapuran-Berperan',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
@@ -108,19 +109,15 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Social Media',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Instagram',
+              href: 'https://instagram.com/sapuranberperan',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'TikTok',
+              href: 'https://www.tiktok.com/@sapuranberperan',
             },
           ],
         },
@@ -133,12 +130,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Sapuran-Berperan',
             },
           ],
         },
       ],
-      copyright: `KKN-PPM UGM Sapuran Berperan.`,
+      copyright: `KKN-PPM UGM Sapuran Berperan`,
     },
     prism: {
       theme: prismThemes.github,
