@@ -1,0 +1,8 @@
+{
+  "label": "Markers",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Endpoints for managing bamboo location markers."
+  }
+}
