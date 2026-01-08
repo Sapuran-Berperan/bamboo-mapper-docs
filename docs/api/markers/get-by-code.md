@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Get marker by short code. This endpoint is **public** (no authentication required) and is used for QR code scanning.
 
 ```
-GET /api/v1/markers/code/{shortCode}
+GET /v1/markers/code/{shortCode}
 ```
 
 ## Parameters

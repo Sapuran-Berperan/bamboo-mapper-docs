@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Create a new user account.
 
 ```
-POST /api/v1/auth/register
+POST /v1/auth/register
 ```
 
 ## Request Body

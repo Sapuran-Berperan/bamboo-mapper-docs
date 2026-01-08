@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Logout the user and revoke all their refresh tokens.
 
 ```
-POST /api/v1/auth/logout
+POST /v1/auth/logout
 ```
 
 ## Headers

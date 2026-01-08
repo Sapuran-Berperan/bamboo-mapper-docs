@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Authenticate user and receive access and refresh tokens.
 
 ```
-POST /api/v1/auth/login
+POST /v1/auth/login
 ```
 
 ## Request Body

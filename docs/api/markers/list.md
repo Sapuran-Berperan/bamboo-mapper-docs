@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Get all markers in a lightweight format optimized for map display.
 
 ```
-GET /api/v1/markers/
+GET /v1/markers/
 ```
 
 ## Headers

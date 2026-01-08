@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Get full marker details by UUID.
 
 ```
-GET /api/v1/markers/{id}
+GET /v1/markers/{id}
 ```
 
 ## Parameters

@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Update an existing marker. Only provided fields are updated (partial update supported).
 
 ```
-PUT /api/v1/markers/{id}
+PUT /v1/markers/{id}
 ```
 
 ## Parameters

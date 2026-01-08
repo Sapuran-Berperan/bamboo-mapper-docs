@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Get markers with pagination, sorting, search, and filtering. Designed for dashboard usage with full marker details.
 
 ```
-GET /api/v1/markers/pagination
+GET /v1/markers/paginated
 ```
 
 ## Headers
@@ -36,19 +36,19 @@ Authorization: Bearer {access_token}
 
 ```bash
 # Basic pagination
-GET /api/v1/markers/pagination?page=1&per_page=10
+GET /v1/markers/paginated?page=1&per_page=10
 
 # With sorting
-GET /api/v1/markers/pagination?sort_by=name&sort_dir=asc
+GET /v1/markers/paginated?sort_by=name&sort_dir=asc
 
 # With search
-GET /api/v1/markers/pagination?search=bambusa
+GET /v1/markers/paginated?search=bambusa
 
 # With date filter
-GET /api/v1/markers/pagination?date_from=2025-01-01&date_to=2025-12-31
+GET /v1/markers/paginated?date_from=2025-01-01&date_to=2025-12-31
 
 # Combined filters
-GET /api/v1/markers/pagination?page=1&per_page=20&sort_by=created_at&sort_dir=desc&search=cluster
+GET /v1/markers/paginated?page=1&per_page=20&sort_by=created_at&sort_dir=desc&search=cluster
 ```
 
 ## Response

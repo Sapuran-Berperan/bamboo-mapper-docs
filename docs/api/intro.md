@@ -107,7 +107,7 @@ Jika terjadi error validasi:
 ## Base URL
 
 ```
-/api/v1
+/v1
 ```
 
 ## Autentikasi

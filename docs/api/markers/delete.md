@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Delete a marker and its associated image.
 
 ```
-DELETE /api/v1/markers/{id}
+DELETE /v1/markers/{id}
 ```
 
 ## Parameters

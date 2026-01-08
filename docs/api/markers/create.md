@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Create a new bamboo marker with optional image upload.
 
 ```
-POST /api/v1/markers/
+POST /v1/markers/
 ```
 
 ## Headers

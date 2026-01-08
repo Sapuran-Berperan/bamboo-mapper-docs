@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Get the authenticated user's profile information.
 
 ```
-GET /api/v1/auth/me
+GET /v1/auth/me
 ```
 
 ## Headers

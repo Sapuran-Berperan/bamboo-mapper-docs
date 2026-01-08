@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Get a new access token using a refresh token. The old refresh token is invalidated and a new one is issued (token rotation).
 
 ```
-POST /api/v1/auth/refresh
+POST /v1/auth/refresh
 ```
 
 ## Request Body

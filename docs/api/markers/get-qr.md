@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 Generate and download a QR code image for a marker.
 
 ```
-GET /api/v1/markers/{id}/qr
+GET /v1/markers/{id}/qr
 ```
 
 ## Parameters
