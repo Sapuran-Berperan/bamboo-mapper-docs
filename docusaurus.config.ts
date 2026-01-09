@@ -50,6 +50,18 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'contributing',
+        path: 'contributing',
+        routeBasePath: 'contributing',
+        sidebarPath: './sidebarsContributing.ts',
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -68,6 +80,13 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Docs',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'contributingSidebar',
+          docsPluginId: 'contributing',
+          position: 'left',
+          label: 'Contributing',
         },
         {
           href: 'https://github.com/Sapuran-Berperan',
