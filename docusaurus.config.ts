@@ -54,6 +54,15 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'features',
+        path: 'features',
+        routeBasePath: 'features',
+        sidebarPath: './sidebarsFeatures.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'contributing',
         path: 'contributing',
         routeBasePath: 'contributing',
@@ -80,6 +89,19 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Docs',
+        },
+        {
+          type: 'dropdown',
+          label: 'Features',
+          position: 'left',
+          items: [
+            {
+              type: 'docSidebar',
+              sidebarId: 'featuresKkn2025Sidebar',
+              docsPluginId: 'features',
+              label: 'KKN 2025',
+            },
+          ],
         },
         {
           type: 'docSidebar',
