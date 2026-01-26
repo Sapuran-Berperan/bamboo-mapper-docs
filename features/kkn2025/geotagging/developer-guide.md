@@ -1,5 +1,4 @@
 ---
-slug: /developer-guide
 title: Geotagging Developer Guide
 ---
 

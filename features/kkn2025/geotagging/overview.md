@@ -1,5 +1,4 @@
 ---
-slug: /overview
 title: Fitur Geotagging
 ---
 
